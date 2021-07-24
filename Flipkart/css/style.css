@@ -1,0 +1,814 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
+.plus {
+    margin-left: 3px;
+    color: yellow;
+}
+
+.explore {
+    color: white;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    display: inline-flex;
+    position: relative;
+    left: 3px;
+}
+
+.explore0 {
+    width: 10px;
+    height: 10px;
+}
+
+.subbtn {
+    position: relative;
+    border: 0px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.nav0 {
+    /* background-color: red; */
+    height: 51px;
+    margin-bottom: 126px;
+}
+
+.ul0 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 48px;
+    height: 40px;
+    margin-bottom: 140px;
+}
+
+.li0 {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: 550;
+    line-height: 45px;
+    margin-left: 1vw;
+    margin-bottom: 85px;
+    color: white;
+}
+
+.li1,
+.li2 {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: 200;
+    margin-left: 0px;
+    border: 0px;
+    box-shadow: 0px 1px 2px 0px rgb(230, 227, 227);
+    border-top: 0px;
+    border-bottom: 0px;
+    text-align: start;
+    background-color: white;
+    z-index: 2;
+    color: rgb(46, 42, 42);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.login {
+    text-decoration: none;
+    /* background-color: red; */
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-bg-color);
+    text-align: center;
+}
+
+#login00 {
+    /* background-color: red; */
+    height: 44px;
+    position: relative;
+    bottom: 33px;
+}
+
+#signup0 {
+    color: rgb(46, 42, 42);
+    text-decoration: none;
+    color: var(--main-bg-color);
+}
+
+.dropdown0 {
+    position: relative;
+    top: 13px;
+    right: 80px;
+    width: 20px;
+    height: 20px;
+    visibility: collapse;
+}
+
+#newcustom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(46, 42, 42);
+}
+
+#signup0:hover {
+    text-decoration: underline;
+}
+
+#login0 {
+    background-color: white;
+    position: relative;
+    margin-left: 6vw;
+    cursor: pointer;
+}
+
+#whitetri0 {
+    height: 10px;
+    width: 27px;
+    position: relative;
+    bottom: 45px;
+}
+
+.ul2 {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(184, 181, 181);
+    border-bottom: 1px solid rgb(230, 227, 227);
+    border-left: 1px solid rgb(230, 227, 227);
+    padding-top: 0px;
+}
+
+.dropdown {
+    position: relative;
+    top: 6px;
+    right: 80px;
+    width: 20px;
+    height: 4px;
+    visibility: collapse;
+    /* background-color: red; */
+}
+
+#more:hover .dropdown {
+    visibility: visible;
+}
+
+.ul1 {
+    background-color: white;
+    position: relative;
+}
+
+#more {
+    text-align: center;
+    position: relative;
+    width: 60px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.notif3 {
+    width: 30px;
+    position: relative;
+    right: 6px;
+    height: 20px;
+    margin-left: 19px;
+}
+
+.notif0 {
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    margin-left: 19px;
+}
+
+.notif {
+    width: 18px;
+    height: 16px;
+    margin-right: 7px;
+    margin-left: 19px;
+    margin-bottom: -3px;
+}
+
+.cartlink {
+    color: white;
+    display: flex;
+    text-decoration: none;
+    height: 2px;
+    position: relative;
+    right: 60px;
+}
+
+#cart0 {
+    height: 45px;
+    position: relative;
+    cursor: pointer;
+    width: 80px;
+}
+
+.notiflink {
+    text-decoration: none;
+}
+
+.li1:hover {
+    background-color: rgb(250, 249, 249);
+}
+
+.li2:hover {
+    background-color: rgb(250, 249, 249);
+}
+
+@media only screen and (max-width: 583px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: var(--main-bg-color);
+        height: 150px;
+        width: 100vw;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        margin-left: 3vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 8px;
+        padding-bottom: 4px;
+    }
+    .logo0 {
+        width: 75px;
+    }
+    .searchbar {
+        margin-left: -80px;
+        padding-left: 10px;
+        padding-right: 6vw;
+    }
+    .searchbar {
+        margin-top: 20px;
+        height: 28px;
+        width: 30vw;
+        font-size: 11px;
+    }
+    .searchbar1 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 90px;
+        margin-top: 30px;
+        margin-right: 1vw;
+    }
+    .subbtn {
+        right: 29px;
+        margin-top: 21px;
+    }
+    #searchbtn00 {
+        font-size: 16px;
+        color: var(--main-bg-color);
+        background-color: white;
+        padding: 7px;
+    }
+    #searchbtn00 {
+        border-right: 0.5vw solid white;
+        border-bottom: 0.1vw solid white;
+        padding: 4px;
+        /* background-color: red; */
+        margin-top: 2px;
+    }
+    .ul0 {
+        top: 96px;
+        display: inline-flex;
+        gap: 9vw;
+    }
+    .li0 {
+        font-size: 14px;
+        margin-right: 1vw;
+    }
+    .li1,
+    .li2 {
+        font-size: 13px;
+        width: 200px;
+        /* background-color: red; */
+        line-height: 40px;
+    }
+    #login0 {
+        height: 30px;
+        top: 5px;
+        right: 17vw;
+        width: 50px;
+    }
+    .login {
+        font-size: 14px;
+    }
+    #login00 {
+        /* background-color: red; */
+        position: relative;
+        padding-bottom: 21px;
+    }
+    #signup0 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #whitetri0 {
+        margin-top: 21px;
+        left: 75px;
+    }
+    #login00:hover .dropdown0 {
+        visibility: visible;
+    }
+    #newcustom0 {
+        visibility: collapse;
+    }
+    .ul1 {
+        bottom: 25px;
+        left: 30px;
+    }
+    #more {
+        /* background-color: red; */
+        left: -166px;
+        margin-right: 2.1vw;
+        margin-left: 78px;
+        font-size: 14px;
+    }
+    .more0 {
+        /* background-color: red; */
+        height: 70px;
+    }
+    .notif3 {
+        margin-bottom: -4px;
+    }
+    .notif0 {
+        margin-bottom: -3px;
+    }
+    /* keep notif in utils */
+    #whitetri {
+        height: 10px;
+        width: 27px;
+        position: relative;
+        bottom: 11px;
+        position: relative;
+        left: 78px;
+    }
+    .ul2 {
+        /* background-color: red; */
+        background-color: white;
+        bottom: 59px;
+        width: 206px;
+    }
+    .cartlink {
+        width: 12px;
+        max-width: 100px;
+        /* background-color: red; */
+    }
+    #cart0 {
+        display: inline-flex;
+        /* background-color: red; */
+        left: -140px;
+        font-size: 14px;
+    }
+    .cartimg {
+        position: relative;
+        top: 12px;
+        height: 18px;
+        max-height: 28px;
+    }
+}
+
+@media only screen and (min-width: 584px) and (max-width: 749px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: var(--main-bg-color);
+        height: 7.5vw;
+        width: 100vw;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        margin-left: 14vw;
+        position: relative;
+        right: 90px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    .logo {
+        margin-left: 110px;
+    }
+    .logo0 {
+        width: 15vw;
+    }
+    .searchbar {
+        margin-left: -80px;
+        padding-left: 10px;
+        padding-right: 6vw;
+    }
+    .searchbar {
+        height: 5vw;
+        width: 30vw;
+    }
+    .searchbar1 {
+        display: inline-flex;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .subbtn {
+        right: 32px;
+        margin-top: 2px;
+    }
+    #searchbtn00 {
+        font-size: 18px;
+        color: var(--main-bg-color);
+        background-color: white;
+        padding: 7px;
+    }
+    #searchbtn00 {
+        border-right: 0.5vw solid white;
+        border-bottom: 0.1vw solid white;
+        padding: 4px;
+        height: 18px;
+        width: 18px;
+        /* background-color: red; */
+        margin-top: 2px;
+    }
+    .ul0 {
+        top: 69px;
+        display: inline-flex;
+        gap: 9vw;
+    }
+    .li0 {
+        font-size: 17px;
+        margin-right: 2vw;
+    }
+    .li1,
+    .li2 {
+        width: 250px;
+        /* background-color: red; */
+        line-height: 40px;
+        font-size: 13px;
+    }
+    #login0 {
+        height: 5vw;
+        top: 5px;
+        right: 17vw;
+        width: 10vw;
+    }
+    .login {
+        font-size: 14px;
+    }
+    #signup0 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #newcustom0 {
+        visibility: collapse;
+    }
+    #whitetri0 {
+        margin-bottom: 26px;
+        left: 110px;
+        visibility: collapse;
+    }
+    #login0:hover .dropdown0 {
+        visibility: visible;
+    }
+    .ul1 {
+        bottom: 46px;
+        right: 15px;
+    }
+    #more {
+        /* background-color: red; */
+        right: 37vw;
+        margin-left: 70px;
+        font-size: 14px;
+    }
+    .notif3 {
+        margin-bottom: -4px;
+    }
+    .notif0 {
+        margin-bottom: -3px;
+    }
+    #whitetri {
+        height: 1vw;
+        width: 3vw;
+        position: relative;
+        bottom: 4.6vw;
+        position: relative;
+        left: 78px;
+        visibility: collapse;
+    }
+    .ul2 {
+        /* background-color: red; */
+        bottom: 88px;
+        width: 255px;
+    }
+    .cartlink {
+        width: 12vw;
+        max-width: 100px;
+        /* background-color: yellow; */
+    }
+    #cart0 {
+        display: inline;
+        /* background-color: red; */
+        right: 39vw;
+        font-size: 14px;
+    }
+    .cartimg {
+        position: relative;
+        top: 4px;
+        height: 3vw;
+        max-height: 28px;
+    }
+}
+
+@media only screen and (max-width:1000px) and (min-width: 750px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-color: var(--main-bg-color);
+        height: 55px;
+        width: 100vw;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        margin-left: 14vw;
+        position: relative;
+        right: 90px;
+    }
+    .logo0 {
+        width: 90px;
+    }
+    .searchbar {
+        min-width: 30vw;
+        margin-left: -80px;
+        padding-left: 10px;
+        padding-right: 40px;
+        /* width: 40vw; */
+    }
+    .searchbar1 {
+        display: inline-flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40px;
+    }
+    .subbtn {
+        right: 33px;
+        margin-top: 2px;
+    }
+    #searchbtn00 {
+        font-size: 18px;
+        color: var(--main-bg-color);
+        background-color: white;
+        padding: 7px;
+    }
+    #searchbtn00 {
+        border-right: 0.5vw solid white;
+        border-bottom: 0.1vw solid white;
+        padding: 4px;
+        height: 18px;
+        width: 18px;
+        /* background-color: red; */
+        margin-top: 2px;
+    }
+    .ul0 {
+        top: 69px;
+    }
+    .li0 {
+        font-size: 17px;
+        margin-right: 2vw;
+    }
+    .li2 {
+        margin-top: 1px;
+    }
+    .li1,
+    .li2 {
+        font-size: 14px;
+        width: 300px;
+        /* background-color: red; */
+        line-height: 60px;
+    }
+    #login0 {
+        height: 33px;
+        top: 3px;
+        right: 50px;
+        width: 120px;
+    }
+    #newcustom {
+        gap: 70px;
+    }
+    #whitetri0 {
+        margin-bottom: 26px;
+        left: 110px;
+    }
+    #login0:hover .dropdown0 {
+        visibility: visible;
+    }
+    .ul1 {
+        bottom: 49px;
+        right: 15px;
+    }
+    #more {
+        /* background-color: red; */
+        right: 110px;
+        margin-left: 70px;
+    }
+    .notif3 {
+        margin-bottom: -5px;
+    }
+    .notif0 {
+        margin-bottom: -5px;
+    }
+    #whitetri {
+        height: 10px;
+        width: 27px;
+        position: relative;
+        bottom: 35px;
+        position: relative;
+        left: 78px;
+    }
+    .ul2 {
+        /* background-color: red; */
+        bottom: 88px;
+        width: 290px;
+    }
+    .cartlink {
+        right: 60px;
+        /* background-color: yellow; */
+    }
+    #cart0 {
+        display: inline;
+        /* background-color: red; */
+        right: 50px;
+    }
+    .cartimg {
+        position: relative;
+        top: 7px;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    header {
+        display: flex;
+        align-items: center;
+        background-color: var(--main-bg-color);
+        height: 55px;
+        width: 100vw;
+    }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        margin-left: 19vw;
+        position: relative;
+        right: 7vw;
+    }
+    .logo0 {
+        width: 90px;
+    }
+    .searchbar {
+        min-width: 30vw;
+        margin-left: -80px;
+        padding-left: 10px;
+        padding-right: 40px;
+        width: 36vw;
+    }
+    .searchbar1 {
+        display: inline-flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40px;
+    }
+    .subbtn {
+        right: 33px;
+        margin-top: 2px;
+    }
+    #searchbtn00 {
+        font-size: 18px;
+        color: var(--main-bg-color);
+        background-color: white;
+        padding: 7px;
+    }
+    #searchbtn00 {
+        border-right: 0.5vw solid white;
+        border-bottom: 0.1vw solid white;
+        padding: 4px;
+        height: 18px;
+        width: 18px;
+        /* background-color: red; */
+        margin-top: 2px;
+    }
+    .ul0 {
+        top: 69px;
+        right: 50px;
+    }
+    .li0 {
+        font-size: 17px;
+        margin-right: 2vw;
+    }
+    .li2 {
+        margin-top: 1px;
+    }
+    .li1,
+    .li2 {
+        font-size: 14px;
+        width: 300px;
+        /* background-color: red; */
+        line-height: 60px;
+    }
+    #login0 {
+        height: 33px;
+        top: 3px;
+        right: 50px;
+        width: 120px;
+    }
+    #newcustom {
+        gap: 70px;
+    }
+    #whitetri0 {
+        margin-bottom: 26px;
+        left: 110px;
+    }
+    #login0:hover .dropdown0 {
+        visibility: visible;
+    }
+    .ul1 {
+        bottom: 49px;
+        right: 15px;
+    }
+    #more {
+        /* background-color: red; */
+        right: 110px;
+        margin-left: 70px;
+    }
+    .notif3 {
+        margin-bottom: -5px;
+    }
+    .notif0 {
+        margin-bottom: -5px;
+    }
+    #whitetri {
+        height: 10px;
+        width: 27px;
+        position: relative;
+        bottom: 35px;
+        position: relative;
+        left: 78px;
+    }
+    .ul2 {
+        /* background-color: red; */
+        bottom: 88px;
+        width: 290px;
+    }
+    .cartlink {
+        right: 60px;
+        /* background-color: yellow; */
+    }
+    #cart0 {
+        display: inline;
+        /* background-color: red; */
+        right: 50px;
+    }
+    .cartimg {
+        position: relative;
+        top: 7px;
+    }
+}
+
+.li1,
+.li2 {
+    background-color: white;
+    z-index: 2;
+}
+
+.li1 {
+    /* background-color: red; */
+    border-bottom: 1px solid rgb(230, 227, 227);
+    border-left: 1px solid rgb(230, 227, 227);
+    border-right: 1px solid rgb(230, 227, 227);
+}
