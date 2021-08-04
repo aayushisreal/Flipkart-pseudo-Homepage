@@ -1,2 +1,2 @@
 # Flipkart-pseudo-Homepage
-using HTML and CSS only
+Using HTML and CSS only
